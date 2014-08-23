@@ -1,0 +1,9 @@
+{
+  "name": "hn-plus",
+  "title": "HN+",
+  "id": "jid1-OaZBAYaE774Fpg",
+  "description": "Adds a few simple features to Hacker News",
+  "author": "Zack Boehm",
+  "license": "MPL 2.0",
+  "version": "0.1"
+}

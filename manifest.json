@@ -1,0 +1,15 @@
+{
+  "name": "HN-Plus",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Adds a few simple features to Hacker News",
+  "homepage_url": "https://github.com/zackboe/hn-plus",
+  "permissions": ["https://news.ycombinator.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/*"],
+      "js": ["data/localforage.min.js", "data/inject.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
